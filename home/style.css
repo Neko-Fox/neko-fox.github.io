@@ -8,7 +8,7 @@
     --batton-2: #D3D3D3;
     --batton-3: #C0C0C0;
     --batton-font: #212121;
-    --window-bg: #fafafa;
+    --window-bg: #e3f2fd;;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -49,10 +49,23 @@ h2 {
   content: "Neko-Fox Studio 2026";
 }
 .version::before {
-    content: "Moonland API：";
+    content: "Webpage：";
 }
 .version::after {
-    content: "A 0.1.2.260124";
+    content: "260129";
+}
+.api::before {
+    content: "Moonland API：";
+}
+.api::after {
+    content: "B 0.1.2.260129";
+}
+.update::before {
+    content: "更新：";
+}
+.update::after {
+    content: "\a· 添加活动功能\a· 修复颜色问题";
+    white-space: pre;
 }
 .menu {
 align-content: center;
