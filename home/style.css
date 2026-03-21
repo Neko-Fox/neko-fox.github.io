@@ -2,8 +2,8 @@
   content: "NekoPixels Studio 2026";
 }
 .version::before {
-    content: "NekoPixels-Moonland兼容层：";
+    content: "NekoPixels-Sun-HTML兼容层：";
 }
 .version::after {
-    content: "260308";
+    content: "260321";
 }
